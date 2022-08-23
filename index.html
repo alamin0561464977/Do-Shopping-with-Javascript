@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Shopping with Javascript</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container mx-auto">
+    <header>
+        <h1 class="text-5xl my-8 text-center">Do Shopping with Javascript</h1>
+    </header>
+    <main class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+        <section class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="https://techtechmedia.com/wp-content/uploads/2021/03/Vuejs.png" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Vue Js</h2>
+                    <p>Price: $<span>150</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_91H3OVet4ezeSGW3p9S8GBCCBv4cCrzOI4hhCtNtzX6ynbypGxB6C2SwS7cC3gj7elA&usqp=CAU"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Node js</h2>
+                    <p>Price: $<span>140</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" card-compact bg-base-100 shadow-xl">
+                <figure><img height="50px"
+                        src="https://i.etsystatic.com/9238581/r/il/a5034f/3850743001/il_340x270.3850743001_rvzv.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Coffee Js</h2>
+                    <p>Price: $<span>120</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img
+                        src="https://res.cloudinary.com/teepublic/image/private/s--esVOxsUO--/c_crop,x_10,y_10/c_fit,w_830/c_crop,g_north_west,h_1038,w_1038,x_-104,y_-163/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-215,y_-274/b_rgb:191919/c_limit,f_jpg,h_630,q_90,w_630/v1509628922/production/designs/2018878_1.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Heart Js</h2>
+                    <p>Price: $<span>130</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img
+                        src="https://images.goodsmile.info/cgm/images/product/20220221/12377/95690/large/6e8fec126601ddf01e6f984d934afc2c.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Panda Js</h2>
+                    <p>Price: $<span>110</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="http://umbrellajs.com/umbrella.png?1" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Umberlla Js</h2>
+                    <p>Price: $<span>115</span></p>
+                    <div class="card-actions justify-end">
+                        <button onclick="card(this)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="overflow-x-auto">
+                <table class="table w-full">
+                    <!-- head -->
+                    <thead>
+                        <tr>
+                            <th id="th"></th>
+                            <th>Name</th>
+                            <th>prise</th>
+                            <th>total</th>
+                            <th id="total">00</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
