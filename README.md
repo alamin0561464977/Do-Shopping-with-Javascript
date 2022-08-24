@@ -1,8 +1,8 @@
 # Do-Shopping-with-Javascript
-Do Shopping with Javascript
+<h2>This Website full Responsi</h2>
 
 
-<h1>Do Shopping with Javascript</h1>
+<h1>https://marvelous-meringue-11e24c.netlify.app/</h1>
 <h3>This Projec using:</h3>
 <ul>
     <li>HTML</li>
@@ -11,4 +11,3 @@ Do Shopping with Javascript
     <li>tailwind css</li>
     <li>daisy Ui</li>
 </ul>
-<h4>This Website full Responsi</h4>
